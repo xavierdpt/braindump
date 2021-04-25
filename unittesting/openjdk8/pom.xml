@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.xavierdpt.braindump.unittesting</groupId>
+    <artifactId>openjdk8</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.jars.sources>/usr/lib/jvm/openjdk-8/src.zip</java.jars.sources>
+        <java.jars.dir>/usr/lib/jvm/java-8-openjdk-amd64/jre/lib</java.jars.dir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${project.build.directory}/sources-for-coverage</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>extract_source</id>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <phase>test</phase>
+                        <configuration>
+                            <target>
+                                <unzip src="${java.jars.sources}" dest="${project.build.sourceDirectory}"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>extract_classes</id>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <phase>process-test-classes</phase>
+                        <configuration>
+                            <target>
+                                <unzip src="${java.jars.dir}/rt.jar" dest="${project.build.outputDirectory}"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                        <configuration>
+                            <inclNoLocationClasses>true</inclNoLocationClasses>
+                            <inclBootstrapClasses>true</inclBootstrapClasses>
+                            <classDumpDir>${project.build.directory}/jacoco-dump</classDumpDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
