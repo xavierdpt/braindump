@@ -9,7 +9,7 @@ import java.util.TimeZone;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-public class ByteTest {
+public class CalendarTest {
 
     @Test
     public void test() {

@@ -82,6 +82,37 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.4</version>
+                <goals>
+                    <goal>test</goal>
+                </goals>
+                <configuration>
+                    <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
+                    <failIfNoTests>false</failIfNoTests>
+                    <includes>
+                        <!--
+                        <include>test/java/time/InstantTest.java</include>
+                        -->
+                        <include>${specificTests}</include>
+                    </includes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>specific_test</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>!specificTests</name>
+                </property>
+            </activation>
+            <properties>
+                <specificTests>**/*Test.java</specificTests>
+            </properties>
+        </profile>
+    </profiles>
 </project>
