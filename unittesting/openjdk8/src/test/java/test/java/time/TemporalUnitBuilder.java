@@ -1,5 +1,7 @@
 package test.java.time;
 
+import test.TestUtil;
+
 import java.time.Duration;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalUnit;
@@ -7,9 +9,15 @@ import java.time.temporal.TemporalUnit;
 public class TemporalUnitBuilder {
 
     private Boolean isSupportedBy;
+    private Duration duration;
 
     public TemporalUnitBuilder isSupportedBy(boolean isSupportedBy) {
         this.isSupportedBy = isSupportedBy;
+        return this;
+    }
+
+    public TemporalUnitBuilder duration(Duration duration) {
+        this.duration = duration;
         return this;
     }
 
@@ -26,37 +34,37 @@ public class TemporalUnitBuilder {
 
             @Override
             public Duration getDuration() {
-                return null;
+                return duration;
             }
 
             @Override
             public boolean isDurationEstimated() {
-                return false;
+                throw TestUtil.notImplemented();
             }
 
             @Override
             public boolean isDateBased() {
-                return false;
+                throw TestUtil.notImplemented();
             }
 
             @Override
             public boolean isTimeBased() {
-                return false;
+                throw TestUtil.notImplemented();
             }
 
             @Override
             public <R extends Temporal> R addTo(R temporal, long amount) {
-                return null;
+                return temporal;
             }
 
             @Override
             public long between(Temporal temporal1Inclusive, Temporal temporal2Exclusive) {
-                return 0;
+                return 0L;
             }
 
             @Override
             public String toString() {
-                return null;
+                throw TestUtil.notImplemented();
             }
         };
     }

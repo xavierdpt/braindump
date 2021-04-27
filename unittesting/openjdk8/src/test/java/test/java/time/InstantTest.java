@@ -2,15 +2,27 @@ package test.java.time;
 
 import org.junit.Assert;
 import org.junit.Test;
+import test.Dummy;
+import test.java.time.temporal.TemporalAdjusterBuilder;
+import test.java.time.temporal.TemporalAmountBuilder;
 import test.java.time.temporal.TemporalFieldBuilder;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.time.Clock;
 import java.time.DateTimeException;
+import java.time.Duration;
 import java.time.Instant;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalField;
+import java.time.temporal.TemporalQueries;
 import java.time.temporal.TemporalUnit;
 import java.time.temporal.UnsupportedTemporalTypeException;
 import java.time.temporal.ValueRange;
@@ -18,12 +30,13 @@ import java.time.temporal.ValueRange;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
 
 public class InstantTest {
     @Test
-    public void test() {
+    public void test() throws IOException, ClassNotFoundException {
 
         /* Creates an instant for the current time */
         Instant instant = Instant.now();
@@ -173,7 +186,148 @@ public class InstantTest {
         /* Get nano seconds */
         assertTrue(instant.getNano() > Integer.MIN_VALUE);
 
-        /* Stopped at with(TemporalAdjuster)*/
+        /* Adjusters can return any Temporal, but with Instant, the adjuster must always return another Instant */
+        Instant adjusted = instant.with(new TemporalAdjusterBuilder()
+                .temporal(Instant.now())
+                .build());
+        assertNotNull(adjusted);
 
+        /* This is how to modify field values on an Instant */
+
+        /* If the value does not change, the same instant instance is returned, but it is an implementation detail */
+        assertNotNull(instant_second.with(ChronoField.MILLI_OF_SECOND, 0L));
+        assertNotNull(instant_second.with(ChronoField.MICRO_OF_SECOND, 0L));
+        assertNotNull(instant_second.with(ChronoField.NANO_OF_SECOND, 0L));
+        assertNotNull(instant_second.with(ChronoField.INSTANT_SECONDS, 0L));
+
+        /* If the value changes, a different instance is returned */
+        assertNotNull(instant.with(ChronoField.MILLI_OF_SECOND, 0L));
+        assertNotNull(instant.with(ChronoField.MICRO_OF_SECOND, 0L));
+        assertNotNull(instant.with(ChronoField.NANO_OF_SECOND, 0L));
+        assertNotNull(instant.with(ChronoField.INSTANT_SECONDS, 0L));
+
+        /* Other chrono fields are not supported */
+        assertThrows(UnsupportedTemporalTypeException.class,
+                () -> instant.with(ChronoField.DAY_OF_MONTH, 1L)
+        );
+
+        /* Custom adjustment */
+        Instant adjusted2 = instant.with(new TemporalFieldBuilder()
+                .temporal(null)
+                .build(), 0L);
+        assertNull(adjusted2);
+
+        /* Truncating */
+        assertNotNull(instant.truncatedTo(ChronoUnit.NANOS));
+        assertThrows(UnsupportedTemporalTypeException.class,
+                () -> instant.truncatedTo(new TemporalUnitBuilder()
+                        .duration(Duration.ofSeconds(86401))
+                        .build()));
+        assertThrows(UnsupportedTemporalTypeException.class,
+                () -> instant.truncatedTo(new TemporalUnitBuilder()
+                        .duration(Duration.ofNanos(86400L * 1_000_001L))
+                        .build()));
+        assertNotNull(instant.truncatedTo(ChronoUnit.SECONDS));
+
+        /* plus */
+        assertNotNull(instant.plus(new TemporalAmountBuilder().build()));
+
+        assertNotNull(instant.plus(0L, ChronoUnit.NANOS));
+        assertNotNull(instant.plus(0L, ChronoUnit.MICROS));
+        assertNotNull(instant.plus(0L, ChronoUnit.MILLIS));
+        assertNotNull(instant.plus(0L, ChronoUnit.SECONDS));
+        assertNotNull(instant.plus(0L, ChronoUnit.MINUTES));
+        assertNotNull(instant.plus(0L, ChronoUnit.HOURS));
+        assertNotNull(instant.plus(0L, ChronoUnit.HALF_DAYS));
+        assertNotNull(instant.plus(0L, ChronoUnit.DAYS));
+        assertThrows(UnsupportedTemporalTypeException.class,
+                () -> instant.plus(0L, ChronoUnit.CENTURIES));
+        assertNotNull(instant.plus(0L, new TemporalUnitBuilder().build()));
+
+        assertNotNull(instant.plusSeconds(0L));
+        assertNotNull(instant.plusMillis(0L));
+        assertNotNull(instant.plusNanos(0L));
+
+        /* subtract */
+
+        assertNotNull(instant.minus(new TemporalAmountBuilder().build()));
+        assertNotNull(instant.minus(0L, new TemporalUnitBuilder().build()));
+        assertNotNull(instant.minus(Long.MIN_VALUE, new TemporalUnitBuilder().build()));
+        assertNotNull(instant.minusSeconds(0L));
+
+        assertNotNull(instant.minusSeconds(0L));
+        if (knowHowToDoThis()) {
+            assertNotNull(instant.minusSeconds(Long.MIN_VALUE));
+        }
+        assertNotNull(instant.minusMillis(0L));
+        if (knowHowToDoThis()) {
+            assertNotNull(instant.minusMillis(Long.MIN_VALUE));
+        }
+        assertNotNull(instant.minusNanos(0L));
+        if (knowHowToDoThis()) {
+            assertNotNull(instant.minusNanos(Long.MIN_VALUE));
+        }
+
+        /* query */
+        assertNotNull(instant.query(TemporalQueries.precision()));
+        assertNull(instant.query(TemporalQueries.chronology()));
+        assertNull(instant.query(TemporalQueries.zoneId()));
+        assertNull(instant.query(TemporalQueries.zone()));
+        assertNull(instant.query(TemporalQueries.offset()));
+        assertNull(instant.query(TemporalQueries.localDate()));
+        assertNull(instant.query(TemporalQueries.localTime()));
+        assertNotNull(instant.query(new TemporalQueryBuilder<>(new Dummy()).build()));
+
+        /**/
+        assertNotNull(instant.adjustInto(instant));
+
+        /* until */
+        instant.until(instant, ChronoUnit.NANOS);
+        instant.until(instant, ChronoUnit.MICROS);
+        instant.until(instant, ChronoUnit.MILLIS);
+        instant.until(instant, ChronoUnit.SECONDS);
+        instant.until(instant, ChronoUnit.MINUTES);
+        instant.until(instant, ChronoUnit.HOURS);
+        instant.until(instant, ChronoUnit.HALF_DAYS);
+        instant.until(instant, ChronoUnit.DAYS);
+        assertThrows(UnsupportedTemporalTypeException.class,
+                () -> instant.until(instant, ChronoUnit.CENTURIES));
+        instant.until(instant,
+                new TemporalUnitBuilder().build());
+
+        /**/
+        assertNotNull(instant.atOffset(ZoneOffset.UTC));
+        assertNotNull(instant.atZone(ZoneId.systemDefault()));
+
+        instant.toEpochMilli();
+        Instant.ofEpochSecond(-1, 1).toEpochMilli();
+        Instant.ofEpochSecond(-1, 0).toEpochMilli();
+
+        Instant.ofEpochSecond(0).compareTo(Instant.ofEpochSecond(0));
+        Instant.ofEpochSecond(0).compareTo(Instant.ofEpochSecond(1));
+
+        instant.isAfter(instant);
+        instant.isBefore(instant);
+
+        Instant.ofEpochSecond(0, 0)
+                .equals(Instant.ofEpochSecond(1, 0));
+        Instant.ofEpochSecond(0, 1)
+                .equals(Instant.ofEpochSecond(0, 1));
+        Instant.ofEpochSecond(0, 1)
+                .equals(Instant.ofEpochSecond(0, 2));
+        Instant.ofEpochSecond(0, 1)
+                .equals(new Object());
+
+        instant.hashCode();
+        instant.toString();
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        new ObjectOutputStream(baos).writeObject(instant);
+        assertNotNull(new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray())).readObject());
+
+    }
+
+    private boolean knowHowToDoThis() {
+        return System.currentTimeMillis() < 0;
     }
 }

@@ -14,6 +14,7 @@ public class TemporalFieldBuilder {
     private boolean isSupportedBy;
     private ValueRange range;
     private long getFrom;
+    private Temporal the_temporal;
 
     public TemporalFieldBuilder isSupportedBy(boolean isSupportedBy) {
         this.isSupportedBy = isSupportedBy;
@@ -27,6 +28,11 @@ public class TemporalFieldBuilder {
 
     public TemporalFieldBuilder getFrom(long getFrom) {
         this.getFrom = getFrom;
+        return this;
+    }
+
+    public TemporalFieldBuilder temporal(Temporal temporal) {
+        this.the_temporal = temporal;
         return this;
     }
 
@@ -75,12 +81,12 @@ public class TemporalFieldBuilder {
 
             @Override
             public <R extends Temporal> R adjustInto(R temporal, long newValue) {
-                throw TestUtil.notImplemented();
+                return (R) the_temporal;
             }
 
             @Override
             public String toString() {
-                throw TestUtil.notImplemented();
+                return "TFB";
             }
         };
     }

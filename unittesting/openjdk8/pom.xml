@@ -87,7 +87,7 @@
                         </goals>
                         <phase>package</phase>
                         <configuration>
-                            <outputDirectory>${project.basedir}/build</outputDirectory>
+                            <outputDirectory>${java.io.tmpdir}/build</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.build.directory}/site/jacoco</directory>
@@ -132,9 +132,6 @@
                     <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
                     <failIfNoTests>false</failIfNoTests>
                     <includes>
-                        <!--
-                        <include>test/java/time/InstantTest.java</include>
-                        -->
                         <include>${specificTests}</include>
                     </includes>
                 </configuration>
