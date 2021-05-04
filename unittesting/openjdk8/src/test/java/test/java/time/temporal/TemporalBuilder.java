@@ -7,11 +7,18 @@ import java.time.temporal.TemporalField;
 import java.time.temporal.TemporalUnit;
 
 public class TemporalBuilder {
+    private Temporal with;
+
+    public TemporalBuilder with(Temporal with) {
+        this.with = with;
+        return this;
+    }
+
     public Temporal build() {
         return new Temporal() {
             @Override
             public boolean isSupported(TemporalField field) {
-                return true;
+                throw TestUtil.notImplemented();
             }
 
             @Override
@@ -21,22 +28,22 @@ public class TemporalBuilder {
 
             @Override
             public boolean isSupported(TemporalUnit unit) {
-                return true;
-            }
-
-            @Override
-            public Temporal with(TemporalField field, long newValue) {
                 throw TestUtil.notImplemented();
             }
 
             @Override
+            public Temporal with(TemporalField field, long newValue) {
+                return with;
+            }
+
+            @Override
             public Temporal plus(long amountToAdd, TemporalUnit unit) {
-                return this;
+                throw TestUtil.notImplemented();
             }
 
             @Override
             public long until(Temporal endExclusive, TemporalUnit unit) {
-                return 0L;
+                throw TestUtil.notImplemented();
             }
         };
     }

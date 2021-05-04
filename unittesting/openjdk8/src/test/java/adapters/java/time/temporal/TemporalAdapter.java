@@ -1,4 +1,4 @@
-package adapters;
+package adapters.java.time.temporal;
 
 import test.TestUtil;
 

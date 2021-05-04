@@ -1,4 +1,4 @@
-package test.java.time;
+package test.java.time.zone;
 
 import org.junit.Test;
 

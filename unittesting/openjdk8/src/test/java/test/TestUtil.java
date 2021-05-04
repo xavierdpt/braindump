@@ -14,14 +14,20 @@ public class TestUtil {
         return new NoSuchMethodError("Not implemented");
     }
 
-    public static void serDeser(Object duration) throws IOException, ClassNotFoundException {
+    public static <T> void serDeser(T input) throws IOException, ClassNotFoundException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(baos);
-        oos.writeObject(duration);
-        Assert.assertNotNull(new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray())).readObject());
+        oos.writeObject(input);
+        T output = (T) new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray())).readObject();
+        Assert.assertEquals(input, output);
     }
 
     public static boolean f() {
         return System.currentTimeMillis() < 0;
+    }
+
+    public static boolean verbose() {
+        String trueString = Boolean.TRUE.toString();
+        return trueString.equals(System.getProperty("VERBOSE_TESTS", trueString));
     }
 }

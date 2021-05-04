@@ -116,12 +116,12 @@ public class InstantTest {
 
         /*- This one supports everything */
         assertTrue(instant.isSupported(new TemporalFieldBuilder()
-                .isSupportedBy(true)
+                .supported(true)
                 .build()));
 
         /*- This one supports nothing */
         assertFalse(instant.isSupported(new TemporalFieldBuilder()
-                .isSupportedBy(false)
+                .supported(false)
                 .build()));
 
         /* Null fields do not break */

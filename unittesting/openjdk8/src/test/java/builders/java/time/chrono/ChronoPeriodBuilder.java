@@ -1,4 +1,4 @@
-package test.java.time;
+package builders.java.time.chrono;
 
 import test.TestUtil;
 
@@ -8,7 +8,6 @@ import java.time.temporal.ChronoUnit;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAmount;
 import java.time.temporal.TemporalUnit;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
