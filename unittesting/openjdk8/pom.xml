@@ -131,9 +131,10 @@
                 <configuration>
                     <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
                     <failIfNoTests>false</failIfNoTests>
-                    <includes>
-                        <include>${specificTests}</include>
-                    </includes>
+                    <test>${specificTests}</test>
+                    <systemPropertyVariables>
+                        <VERBOSE_TESTS>false</VERBOSE_TESTS>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             <plugin>
