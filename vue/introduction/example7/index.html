@@ -1,0 +1,25 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Composing-with-Components
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <!-- Instanciate component with 'message' attribute -->
+  <mycomponent message="Hello world">
+</div>
+
+<script>
+
+  /* Define mycomponent */
+  Vue.component("mycomponent", {
+    /* message prop */
+    props:['message'],
+    /* template */
+    template: "<p>You have a new message: <em>{{message}}</em></p>",
+  });
+
+  var app = new Vue({
+    el: "#app",
+  });
+</script>

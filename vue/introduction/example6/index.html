@@ -1,0 +1,23 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Handling-User-Input
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <!-- model  directive for two-way binding -->
+  <div>
+    <label for="message">Your message</label
+    ><input id="message" v-model="message" />
+  </div>
+  <p>You typed: {{message}}</p>
+</div>
+
+<script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      message: "Hello world",
+    },
+  });
+</script>

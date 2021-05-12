@@ -1,0 +1,27 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Handling-User-Input
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <p>Click count: {{numberOfClicks}}</p>
+  <!-- on  directive -->
+  <button v-on:click="handleClick">Handle click</button>
+</div>
+
+<script>
+  var app = new Vue({
+    el: "#app",
+    /* data */
+    data: {
+      numberOfClicks: 0,
+    },
+    /* methods */
+    methods: {
+      handleClick: function () {
+        ++this.numberOfClicks;
+      },
+    },
+  });
+</script>

@@ -1,0 +1,29 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Composing-with-Components
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <p>You have a new messages:</p>
+  <ul>
+    <!-- iterate over the texts with the for directive -->
+    <!-- bind the text loop variable to the message prop with the bind directive -->
+    <mycomponent v-for="text in texts" v-bind:message="text">
+  </ul>
+</div>
+
+<script>
+  
+  Vue.component("mycomponent", {
+    props:['message'],
+    template: "<li>{{message}}</li>",
+  });
+
+  var app = new Vue({
+    el: "#app",
+    data:{
+      texts:['Hello','World']
+    }
+  });
+</script>

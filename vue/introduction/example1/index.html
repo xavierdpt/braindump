@@ -1,0 +1,43 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Declarative-Rendering
+-->
+
+<!-- Load Vue (development) -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<!-- This is Vue (production) -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+-->
+
+<!-- Define the template -->
+<div id="app">{{ message }}</div>
+
+<!-- Run Vue on #app and set the message property for the template -->
+<script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      message: "Hello Vue!",
+    },
+  });
+</script>
+
+<!-- Function to illustrate that app.message is writable and will update the DOM -->
+<script>
+  function setMessage(e) {
+    e.preventDefault();
+    app.message=document.forms.myform.newvalue.value;
+    /* app.message uses getters and setters to update the DOM upon changes */
+    console.log(Object.getOwnPropertyDescriptor(app,'message'));
+  }
+</script>
+
+<!-- Basic form to set the new value -->
+<form name="myform">
+  <div>
+    <label for="newvalue">New value</label>
+    <input id="newvalue" name="newvalue" type="text" value="New value" />
+  </div>
+  <button type=submit" onclick="setMessage(event)">Set message</button>
+</form>

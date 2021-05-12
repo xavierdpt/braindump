@@ -1,0 +1,28 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Conditionals-and-Loops
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<!-- for  directive -->
+<div id="app">
+  <ul>
+    <li v-for="o in myos">{{o.text}}</li>
+  </ul>
+</div>
+
+<script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      myos: [{ text: "Hello" }, { text: "World" }],
+    },
+  });
+</script>
+
+<script>
+  function push() {
+    app.myos.push({ text: app.myos.length });
+  }
+</script>
+<button onclick="push()">Toggle</button>

@@ -1,0 +1,26 @@
+<!--
+  https://vuejs.org/v2/guide/index.html#Conditionals-and-Loops
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<!-- if  directive -->
+<div id="app">
+  <span v-if="show"><code>show</code> is true</span>
+</div>
+
+<script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      show: true,
+    },
+  });
+</script>
+
+<script>
+  function toggle() {
+    app.show = !app.show;
+  }
+</script>
+<button onclick="toggle()">Toggle</button>
