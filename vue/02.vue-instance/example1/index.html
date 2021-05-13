@@ -1,0 +1,76 @@
+<!--
+  https://vuejs.org/v2/guide/instance.html#Creating-a-Vue-Instance
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<!-- template compilation can be performed ahead of time -->
+<div id="app">
+  <p>{{myvalue}}</p>
+  <button v-on:click="inc">Click Me</button>
+</div>
+
+<script>
+  const data = { myvalue: 1 };
+  const vm = new Vue({
+    el: "#app", // optional, omitted => can use vm.mount() later
+    //template:'<p>{{myvalue}}</p>',
+    // if template not specified, use the element's outer HTML as template
+    // otherwise, use template string and ignore the element's outer HTML
+    data,
+    methods: {
+      inc: function () {
+        ++this.myvalue;
+      },
+    },
+    beforeCreate: function () {
+      console.group(`beforeCreate`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    created: function () {
+      console.group(`created`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    beforeMount: function () {
+      console.group(`beforeMount`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    mounted: function () {
+      console.group(`mounted`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    beforeUpdate: function () {
+      console.group(`beforeUpdate`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    updated: function () {
+      console.group(`updated`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    beforeDestroy: function () {
+      console.group(`beforeDestroy`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+    destroyed: function () {
+      console.group(`destroyed`);
+      console.log(this instanceof Vue);
+      console.groupEnd();
+    },
+  });
+  // watch changes of variable
+  vm.$watch("myvalue", function (newValue, oldValue) {
+    console.log(`${oldValue} -> ${newValue}`);
+  });
+  console.group(`vm props`);
+  // special properties
+  console.log(vm.$data === data);
+  console.log(vm.$el === document.querySelector("#app"));
+  console.groupEnd();
+</script>
