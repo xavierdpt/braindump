@@ -198,3 +198,27 @@ console.log(function(x){x=5})
 console.log(new Promise(()=>{return 5}))
 console.log({}.__proto__)
 console.log({}.hasOwnProperty(''))
+const p6=/a   b/
+console.log(event)
+const myobj={}
+myobj.myprop=5
+console.log(function(){return x=5})
+console.log(async function(){return await foo()})
+location.href="javascript:void(0)"
+foo=foo
+if(foo===foo) {}
+x=5,x=x+1
+console.log({set x(v){return v}})
+var undefined=foo
+console.log([,,])
+console.log("${x}")
+class Bam extends Foo {
+  constructor(){
+    this.a=5
+    super()
+  }
+}
+throw 0
+function myfoo() {
+let xyz = undefined
+}
