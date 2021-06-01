@@ -1,4 +1,7 @@
-package w;
+package servlets;
+
+import ejbs.interfaces.x.XI;
+import ejbs.interfaces.y.YI;
 
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
@@ -8,16 +11,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/hw")
-public class HelloWorld extends HttpServlet {
+@WebServlet("/x")
+public class X extends HttpServlet {
 
     @EJB
-    MyEJBI myEjb;
+    private XI xi;
+
+    @EJB
+    private YI yi;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setHeader("Content-Type", "text/plain");
-        resp.getWriter().println(myEjb.getMessage());
-
+        resp.getWriter().println(xi.xfoo(yi));
     }
 }

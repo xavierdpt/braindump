@@ -12,6 +12,7 @@
         <module>myear</module>
         <module>myejbi</module>
         <module>myejb</module>
+        <module>cross-ejb-calls</module>
     </modules>
     <packaging>pom</packaging>
 

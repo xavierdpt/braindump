@@ -1,8 +1,8 @@
-package w;
+package ejbs;
 
 import javax.ejb.Remote;
 
 @Remote
-public interface MyEJBI {
+public interface MyVetoedEJBI {
     String getMessage();
 }

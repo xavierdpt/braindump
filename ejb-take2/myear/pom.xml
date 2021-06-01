@@ -26,9 +26,42 @@
         </dependency>
         <dependency>
             <groupId>${this.groupId}</groupId>
+            <artifactId>xywar</artifactId>
+            <version>${this.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
             <artifactId>myejb</artifactId>
             <version>${this.version}</version>
             <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
+            <artifactId>myejbi</artifactId>
+            <version>${this.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
+            <artifactId>ejbx</artifactId>
+            <version>${this.version}</version>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
+            <artifactId>ejbxi</artifactId>
+            <version>${this.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
+            <artifactId>ejby</artifactId>
+            <version>${this.version}</version>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>${this.groupId}</groupId>
+            <artifactId>ejbyi</artifactId>
+            <version>${this.version}</version>
         </dependency>
     </dependencies>
 
@@ -43,13 +76,35 @@
                             <groupId>${this.groupId}</groupId>
                             <artifactId>mywar</artifactId>
                         </webModule>
+                        <webModule>
+                            <groupId>${this.groupId}</groupId>
+                            <artifactId>xywar</artifactId>
+                        </webModule>
                         <ejbModule>
                             <groupId>${this.groupId}</groupId>
                             <artifactId>myejb</artifactId>
                         </ejbModule>
+                        <ejbModule>
+                            <groupId>${this.groupId}</groupId>
+                            <artifactId>ejbx</artifactId>
+                        </ejbModule>
+                        <ejbModule>
+                            <groupId>${this.groupId}</groupId>
+                            <artifactId>ejby</artifactId>
+                        </ejbModule>
                         <jarModule>
                             <groupId>${this.groupId}</groupId>
                             <artifactId>myejbi</artifactId>
+                            <includeInApplicationXml>true</includeInApplicationXml>
+                        </jarModule>
+                        <jarModule>
+                            <groupId>${this.groupId}</groupId>
+                            <artifactId>ejbxi</artifactId>
+                            <includeInApplicationXml>true</includeInApplicationXml>
+                        </jarModule>
+                        <jarModule>
+                            <groupId>${this.groupId}</groupId>
+                            <artifactId>ejbyi</artifactId>
                             <includeInApplicationXml>true</includeInApplicationXml>
                         </jarModule>
                     </modules>
