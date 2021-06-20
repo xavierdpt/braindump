@@ -5,6 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 
+import javax.annotation.PostConstruct;
+import javax.ejb.Remove;
 import javax.ejb.Stateful;
 
 @Stateful
@@ -21,5 +23,15 @@ public class MyEJB implements MyEJBI {
         } catch (JsonProcessingException e) {
             return e.getMessage();
         }
+    }
+
+    @Remove
+    void thisMethodShouldRemoveTheBean() {
+        // usually makes sense only for stateful beans
+    }
+
+    @PostConstruct
+    void postConstruct() {
+        System.out.println("[" + this.getClass().getName() + "] Post construct");
     }
 }
