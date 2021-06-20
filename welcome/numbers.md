@@ -22,7 +22,7 @@ numbers.
 | `float`        | `Float`   | 1.4E-45              | 3.4028235E38           | 32     | 4       |
 | `double`       | `Double`  | 4.9E-324             | 1.7976931348623157E308 | 64     | 8       |
 
-See [NumberTypesTest](numbers/src/test/test/java/numbers/NumberTypesTest.java).
+See [NumberTypesTest](numbers/src/test/java/numbers/NumberTypesTest.java).
 
 # Auto boxing
 
@@ -33,7 +33,7 @@ a `byte`. This is called "unboxing".
 If there are two functions with the same name, one of them takes a `byte` and the other takes a `Byte`, boxing or
 unboxing is applied.
 
-See [BoxingTest](numbers/src/test/test/java/numbers/BoxingTest.java).
+See [BoxingTest](numbers/src/test/java/numbers/BoxingTest.java).
 
 The same applies to the other number types.
 
@@ -44,7 +44,7 @@ All boxed types implement the `Number` interface, which defines a number of func
 When a primitive type is passed to a function which accepts an object, the primitive type is automatically boxed to the
 corresponding class type, which implements the Number interface.
 
-See [NumberClassTest](numbers/src/test/test/java/numbers/NumberClassTest.java).
+See [NumberClassTest](numbers/src/test/java/numbers/NumberClassTest.java).
 
 # Types resulting from addition
 
@@ -54,13 +54,13 @@ Adding two `int`, `long`, `float` and `double` produce a number of the same type
 
 But adding two `byte` or `short` always produce an `int`.
 
-See [AdditionSameTypeTest](numbers/src/test/test/java/numbers/AdditionSameTypeTest.java).
+See [AdditionSameTypeTest](numbers/src/test/java/numbers/AdditionSameTypeTest.java).
 
 # Type resulting from increment
 
 The operator `++` preserve the types.
 
-See [PlusPlusTest](numbers/src/test/test/java/numbers/PlusPlusTest.java).
+See [PlusPlusTest](numbers/src/test/java/numbers/PlusPlusTest.java).
 
 # Overflow
 
@@ -69,7 +69,7 @@ Overflow wraps around for `byte`,`short`,`int` and `long`.
 For `float` and `double`, it can keep the same value or go to positive infinity, or negative infinity when going the
 other way.
 
-See [OverflowTest](numbers/src/test/test/java/numbers/OverflowTest.java).
+See [OverflowTest](numbers/src/test/java/numbers/OverflowTest.java).
 
 # Assigning values to variables
 
@@ -80,7 +80,7 @@ An integer declared without a suffix is an `int`, and a floating point value dec
 There are no suffix for `byte` and `short`, and they must be declared with an explicit cast, unless the value is
 assigned to a variable of that type, or returned from a function, and the value is in the valid range for that type.
 
-See [AssignValuesTest](numbers/src/test/test/java/numbers/AssignValuesTest.java).
+See [AssignValuesTest](numbers/src/test/java/numbers/AssignValuesTest.java).
 
 # Explicit and implicit cast
 
@@ -88,7 +88,7 @@ In this list: `byte`, `short`, `int`, `long`, `float`, `double`, casting to a ty
 to a type on the left must be specified explicitly. For example, casting `int` to `short` or `byte` must be specified
 explicitly, but casting a `long` to a `float` or `double` is done implicitly.
 
-See [CastTest](numbers/src/test/test/java/numbers/CastTest.java).
+See [CastTest](numbers/src/test/java/numbers/CastTest.java).
 
 # Cast safety
 
@@ -100,7 +100,7 @@ But implicit casts to `float` and `double` are surprising, because precision los
 from `long` to `float` is implicit, but a long is made of 64 bits and a `float` is made only on 32 bits, so most `long`
 values cannot be represented as a `float`. Only cast from `int` to `double` is actually safe.
 
-See [DangerousImplicitCastTest](numbers/src/test/test/java/numbers/DangerousImplicitCastTest.java).
+See [DangerousImplicitCastTest](numbers/src/test/java/numbers/DangerousImplicitCastTest.java).
 
 # Down-casting integrals
 
@@ -115,7 +115,7 @@ When down-casting a `double` to a `float`, special rules are applied to obtain m
 When down-casting a `double` or a `float` to an integral type, the value assigned to the integral type is the closest
 value. The exact way this works is more complicated than for two's complement representation.
 
-See [ExplicitCastTest](numbers/src/test/test/java/numbers/ExplicitCastTest.java).
+See [ExplicitCastTest](numbers/src/test/java/numbers/ExplicitCastTest.java).
 
 -----------------
 
