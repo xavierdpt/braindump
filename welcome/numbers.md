@@ -117,6 +117,69 @@ value. The exact way this works is more complicated than for two's complement re
 
 See [ExplicitCastTest](numbers/src/test/java/numbers/ExplicitCastTest.java).
 
+# Number interface
+
+The number interface defines the following methods:
+
+- `byte byteValue()`
+- `short shortValue()`
+- `int intValue()`
+- `long longValue()`
+- `float floatValue()`
+- `double doubleValue()`
+
+which are therefore available on `Byte`, `Short`, `Integer`, `Long`, `Float` and `Double` and are implemented by
+implicity or explicits casts, as needed.
+
+See [NumberTest](numbers/src/test/java/numbers/NumberTest.java).
+
+# Equality
+
+Equality on a primitive type is computed by examining the value, but equality on a boxed type is computed by examining
+the object reference.
+
+Small and common numbers are kept in a constant pool so that boxing and unboxing is more efficient, but larger numbers
+are not part of the pool, so when comparing boxed numbers using `==`, the result with vary.
+
+In practice, it is better to use `==` when comparing primitive types, but `equals()` when comparing boxed types.
+
+See [EqualityTest](numbers/src/test/java/numbers/EqualityTest.java).
+
+# `byte`, `Byte`, `String`
+
+## `byte` to `Byte` and back
+
+To create a `Byte` from a `byte`, there are three possibilities:
+
+- implicit boxing
+- Byte constructor
+- `valueOf()` static method
+
+Note that the implicit constructor and the static method will use objects from the constant pool, but the constructor is
+guaranteed to return a new and different instance.
+
+To create a `byte` from a `Byte`, there are two possibilities:
+
+- implicit boxing
+- `byteValue()` defined by the `Number` interface
+
+See [ByteByteTest](numbers/src/test/java/numbers/ByteByteTest.java).
+
+## `Byte` to `String` and back
+
+To convert a `Byte` to a `String`, there is only one possibility:
+
+- `Byte.toString()`
+
+But to convert a  `String` to a `Byte`, there are multiple possibilities:
+
+- XXX
+- XXX
+- XXX
+- XXX
+
+See [ByteStringTest](numbers/src/test/java/numbers/ByteStringTest.java).
+
 -----------------
 
 The `Number` interface extends `Serializable` and declare the four following functions:
