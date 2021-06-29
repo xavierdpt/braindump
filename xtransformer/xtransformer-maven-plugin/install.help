@@ -1,0 +1,1219 @@
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.settings.building.DefaultSettingsBuildingRequest@302a07d
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.settings.building.DefaultSettingsBuildingResult@5066d65f
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.toolchain.building.DefaultToolchainsBuildingRequest@319bc845
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.toolchain.building.DefaultToolchainsBuildingResult@5e01a982
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.execution.DefaultMavenExecutionRequest@6955cb39
+[IJ]-1-ProjectDiscoveryStarted-[IJ]-id=unknown
+[INFO] Scanning for projects...
+[IJ]-1-SessionStarted-[IJ]-id=xavierdpt:xtransformer-maven-plugin:maven-plugin:1.0-SNAPSHOT-[IJ]-projects=xavierdpt:xtransformer-maven-plugin:1.0-SNAPSHOT&&
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugin-plugin:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugin-plugin\3.3\maven-plugin-plugin-3.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugin-plugin:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools\3.3\maven-plugin-tools-3.3.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:24-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\24\maven-parent-24.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:24-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\14\apache-14.pom-[IJ]-artifactCoord=org.apache:apache:pom:14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugin-plugin:jar:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugin-plugin\3.3\maven-plugin-plugin-3.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugin-plugin:jar:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-clean-plugin:pom:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-clean-plugin\2.5\maven-clean-plugin-2.5.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-clean-plugin:pom:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\22\maven-plugins-22.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\21\maven-parent-21.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\10\apache-10.pom-[IJ]-artifactCoord=org.apache:apache:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-clean-plugin:jar:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-clean-plugin\2.5\maven-clean-plugin-2.5.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-clean-plugin:jar:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-resources-plugin\2.6\maven-resources-plugin-2.6.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:pom:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\23\maven-plugins-23.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\22\maven-parent-22.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\11\apache-11.pom-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:jar:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-resources-plugin\2.6\maven-resources-plugin-2.6.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-resources-plugin:jar:2.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-jar-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-jar-plugin\2.4\maven-jar-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-jar-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-jar-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-jar-plugin\2.4\maven-jar-plugin-2.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-jar-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:24-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\24\maven-plugins-24.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:24-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\23\maven-parent-23.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\13\apache-13.pom-[IJ]-artifactCoord=org.apache:apache:pom:13-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-compiler-plugin:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-surefire-plugin:pom:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-surefire-plugin\2.12.4\maven-surefire-plugin-2.12.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-surefire-plugin:pom:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.surefire:surefire:pom:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\surefire\surefire\2.12.4\surefire-2.12.4.pom-[IJ]-artifactCoord=org.apache.maven.surefire:surefire:pom:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-surefire-plugin\2.12.4\maven-surefire-plugin-2.12.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-deploy-plugin:pom:2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-deploy-plugin\2.7\maven-deploy-plugin-2.7.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-deploy-plugin:pom:2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-deploy-plugin:jar:2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-deploy-plugin\2.7\maven-deploy-plugin-2.7.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-deploy-plugin:jar:2.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-site-plugin:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-site-plugin\3.3\maven-site-plugin-3.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-site-plugin:pom:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-site-plugin:jar:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-site-plugin\3.3\maven-site-plugin-3.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-site-plugin:jar:3.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:pom:1.3-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (4.7 kB at 5.4 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-antrun-plugin\1.3\maven-antrun-plugin-1.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-antrun-plugin\1.3\maven-antrun-plugin-1.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:12-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:12-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 kB at 40 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\12\maven-plugins-12.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\12\maven-plugins-12.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\9\maven-parent-9.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\4\apache-4.pom-[IJ]-artifactCoord=org.apache:apache:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:jar:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:jar:1.3-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 kB at 55 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-antrun-plugin\1.3\maven-antrun-plugin-1.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:jar:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-antrun-plugin\1.3\maven-antrun-plugin-1.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-antrun-plugin:jar:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:pom:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:pom:2.2-beta-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 kB at 53 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-assembly-plugin\2.2-beta-5\maven-assembly-plugin-2.2-beta-5.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:pom:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-assembly-plugin\2.2-beta-5\maven-assembly-plugin-2.2-beta-5.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:pom:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:16-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 kB at 39 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\16\maven-plugins-16.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\16\maven-plugins-16.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\15\maven-parent-15.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\6\apache-6.pom-[IJ]-artifactCoord=org.apache:apache:pom:6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (209 kB at 506 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-assembly-plugin\2.2-beta-5\maven-assembly-plugin-2.2-beta-5.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-assembly-plugin\2.2-beta-5\maven-assembly-plugin-2.2-beta-5.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-dependency-plugin:pom:2.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-dependency-plugin\2.8\maven-dependency-plugin-2.8.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-dependency-plugin:pom:2.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-dependency-plugin:jar:2.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-dependency-plugin\2.8\maven-dependency-plugin-2.8.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-dependency-plugin:jar:2.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:pom:2.5.3-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 35 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-release-plugin\2.5.3\maven-release-plugin-2.5.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-release-plugin\2.5.3\maven-release-plugin-2.5.3.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.release:maven-release:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.release:maven-release:pom:2.5.3-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5.0 kB at 17 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\release\maven-release\2.5.3\maven-release-2.5.3.pom-[IJ]-artifactCoord=org.apache.maven.release:maven-release:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\release\maven-release\2.5.3\maven-release-2.5.3.pom-[IJ]-artifactCoord=org.apache.maven.release:maven-release:pom:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:27-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\27\maven-parent-27.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:27-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:17-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\17\apache-17.pom-[IJ]-artifactCoord=org.apache:apache:pom:17-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:jar:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:jar:2.5.3-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (53 kB at 148 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-release-plugin\2.5.3\maven-release-plugin-2.5.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:jar:2.5.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-release-plugin\2.5.3\maven-release-plugin-2.5.3.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-release-plugin:jar:2.5.3-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.amadeus.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.amadeus.jcp.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.sonatype.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.atlassian.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-14-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-15-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-16-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-17-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/mojo/maven-metadata.xml
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-metadata.xml
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/com/amadeus/jcp/maven/plugins/maven-metadata.xml
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/com/amadeus/maven/plugins/maven-metadata.xml
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/com/amadeus/maven/plugins/maven-metadata.xml (869 B at 606 B/s)
+[IJ]-16-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\com\amadeus\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-16-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/sonatype/plugins/maven-metadata.xml
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/com/amadeus/jcp/maven/plugins/maven-metadata.xml (4.8 kB at 2.0 kB/s)
+[IJ]-17-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\com\amadeus\jcp\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-17-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/com/atlassian/maven/plugins/maven-metadata.xml
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-metadata.xml (12 kB at 4.4 kB/s)
+[IJ]-14-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/mojo/maven-metadata.xml (23 kB at 7.2 kB/s)
+[IJ]-15-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\mojo\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/com/atlassian/maven/plugins/maven-metadata.xml (15 kB at 5.4 kB/s)
+[IJ]-17-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\com\atlassian\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/sonatype/plugins/maven-metadata.xml (4.3 kB at 626 B/s)
+[IJ]-16-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\org\sonatype\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\mojo\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\amadeus\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\amadeus\jcp\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\atlassian\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml (717 B at 81 B/s)
+[IJ]-1-METADATA_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.pom (11 kB at 39 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\33\maven-plugins-33.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\33\maven-parent-33.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:33-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\21\apache-21.pom-[IJ]-artifactCoord=org.apache:apache:pom:21-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugins/maven-help-plugin/3.2.0/maven-help-plugin-3.2.0.jar (86 kB at 206 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[IJ]-1-ProjectStarted-[IJ]-id=xavierdpt:xtransformer-maven-plugin:maven-plugin:1.0-SNAPSHOT
+[INFO] 
+[INFO] ----------------< xavierdpt:xtransformer-maven-plugin >-----------------
+[INFO] Building xtransformer-maven-plugin 1.0-SNAPSHOT
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\mojo\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.amadeus.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\amadeus\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.amadeus.jcp.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\amadeus\jcp\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.sonatype.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata com.atlassian.maven.plugins/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\com\atlassian\maven\plugins\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=Could not find metadata org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml in local (C:\m2repo)
+[IJ]-1-METADATA_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-METADATA_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\maven-metadata-artifact.repository.xml-[IJ]-artifactCoord=-[IJ]-error=
+[IJ]-1-MojoStarted-[IJ]-source=CLI-[IJ]-goal=describe-[IJ]-id=xavierdpt:xtransformer-maven-plugin:maven-plugin:1.0-SNAPSHOT-[IJ]-error=
+[INFO] 
+[INFO] --- maven-help-plugin:3.2.0:describe (default-cli) @ xtransformer-maven-plugin ---
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven\3.0\maven-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:2.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:2.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\2.0.6\plexus-2.0.6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\3.0\maven-core-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\3.0\maven-model-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\3.0\maven-settings-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings-builder:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings-builder:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interpolation:pom:1.14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interpolation:pom:1.14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.18\plexus-components-1.1.18.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\2.0.7\plexus-2.0.7.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-component-annotations:pom:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-component-annotations:pom:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-containers\1.7.1\plexus-containers-1.7.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:4.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\4.0\plexus-4.0.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:4.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\forge\forge-parent\10\forge-parent-10.pom-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-sec-dispatcher:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.pom-[IJ]-artifactCoord=org.sonatype.plexus:plexus-sec-dispatcher:pom:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\spice\spice-parent\12\spice-parent-12.pom-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:12-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\forge\forge-parent\4\forge-parent-4.pom-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.5.5\plexus-utils-1.5.5.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.11\plexus-1.0.11.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-cipher:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.pom-[IJ]-artifactCoord=org.sonatype.plexus:plexus-cipher:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-plexus:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-plexus:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu.inject:guice-plexus:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\inject\guice-plexus\1.4.2\guice-plexus-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu.inject:guice-plexus:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu.inject:guice-bean:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\inject\guice-bean\1.4.2\guice-bean-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu.inject:guice-bean:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-inject\1.4.2\sisu-inject-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-parent:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-parent\1.4.2\sisu-parent-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu:sisu-parent:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\forge\forge-parent\6\forge-parent-6.pom-[IJ]-artifactCoord=org.sonatype.forge:forge-parent:pom:6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-classworlds:pom:2.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-classworlds:pom:2.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:2.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\2.0.5\plexus-utils-2.0.5.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:2.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-bean:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.pom-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-bean:pom:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-guice:pom:2.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7.pom-[IJ]-artifactCoord=org.sonatype.sisu:sisu-guice:pom:2.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model-builder:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-model-builder:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-aether-provider:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-aether-provider:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-api:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-api\1.7\aether-api-1.7.pom-[IJ]-artifactCoord=org.sonatype.aether:aether-api:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-parent:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-parent\1.7\aether-parent-1.7.pom-[IJ]-artifactCoord=org.sonatype.aether:aether-parent:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-util:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-util\1.7\aether-util-1.7.pom-[IJ]-artifactCoord=org.sonatype.aether:aether-util:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-impl:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.pom-[IJ]-artifactCoord=org.sonatype.aether:aether-impl:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-spi:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.pom-[IJ]-artifactCoord=org.sonatype.aether:aether-spi:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.6.1-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.pom (4.0 kB at 14 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.6.1-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven/3.6.1/maven-3.6.1.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven/3.6.1/maven-3.6.1.pom (24 kB at 85 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven\3.6.1\maven-3.6.1.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven\3.6.1\maven-3.6.1.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom (4.8 kB at 17 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\5.1\plexus-5.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:pom:3.5.2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.pom (4.2 kB at 15 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-generators\3.5.2\maven-plugin-tools-generators-3.5.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-generators\3.5.2\maven-plugin-tools-generators-3.5.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools\3.5.2\maven-plugin-tools-3.5.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\31\maven-parent-31.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:19-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\19\apache-19.pom-[IJ]-artifactCoord=org.apache:apache:pom:19-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:pom:3.5.2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.pom (2.9 kB at 11 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-api\3.5.2\maven-plugin-tools-api-3.5.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-api\3.5.2\maven-plugin-tools-api-3.5.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:pom:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven\2.2.1\maven-2.2.1.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\11\maven-parent-11.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\5\apache-5.pom-[IJ]-artifactCoord=org.apache:apache:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\2.0.2\plexus-2.0.2.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.0.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.0.20\plexus-utils-3.0.20.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.0.20-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:3.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\3.3.1\plexus-3.3.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:3.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:17-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\spice\spice-parent\17\spice-parent-17.pom-[IJ]-artifactCoord=org.sonatype.spice:spice-parent:pom:17-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-components\15\maven-shared-components-15.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\16\maven-parent-16.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\7\apache-7.pom-[IJ]-artifactCoord=org.apache:apache:pom:7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.doxia:doxia-sink-api:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.pom-[IJ]-artifactCoord=org.apache.maven.doxia:doxia-sink-api:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.doxia:doxia:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\doxia\doxia\1.0\doxia-1.0.pom-[IJ]-artifactCoord=org.apache.maven.doxia:doxia:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\10\maven-parent-10.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-velocity:pom:1.1.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-velocity\1.1.8\plexus-velocity-1.1.8.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-velocity:pom:1.1.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.15\plexus-components-1.1.15.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.15-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\2.0.3\plexus-2.0.3.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:2.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-containers\1.0.3\plexus-containers-1.0.3.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-containers:pom:1.0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.4\plexus-1.0.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:pom:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.1\junit-3.8.1.pom-[IJ]-artifactCoord=junit:junit:pom:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.0.4\plexus-utils-1.0.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.0.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:pom:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.pom-[IJ]-artifactCoord=classworlds:classworlds:pom:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-collections:commons-collections:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-collections\commons-collections\3.1\commons-collections-3.1.pom-[IJ]-artifactCoord=commons-collections:commons-collections:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.velocity:velocity:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\velocity\velocity\1.7\velocity-1.7.pom-[IJ]-artifactCoord=org.apache.velocity:velocity:pom:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-collections:commons-collections:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.pom-[IJ]-artifactCoord=commons-collections:commons-collections:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\commons\commons-parent\9\commons-parent-9.pom-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-lang:commons-lang:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-lang\commons-lang\2.4\commons-lang-2.4.pom-[IJ]-artifactCoord=commons-lang:commons-lang:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.sf.jtidy:jtidy:pom:r938-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\net\sf\jtidy\jtidy\r938\jtidy-r938.pom-[IJ]-artifactCoord=net.sf.jtidy:jtidy:pom:r938-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-components\30\maven-shared-components-30.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\30\maven-parent-30.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:30-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\18\apache-18.pom-[IJ]-artifactCoord=org.apache:apache:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-io:commons-io:pom:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-io\commons-io\2.5\commons-io-2.5.pom-[IJ]-artifactCoord=commons-io:commons-io:pom:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:39-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\commons\commons-parent\39\commons-parent-39.pom-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:39-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\16\apache-16.pom-[IJ]-artifactCoord=org.apache:apache:pom:16-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:pom:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:pom:0.10.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom (11 kB at 30 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:pom:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:pom:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-components\31\maven-shared-components-31.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:31-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-common-artifact-filters:pom:3.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-common-artifact-filters:pom:3.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-codec:commons-codec:pom:1.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-codec\commons-codec\1.11\commons-codec-1.11.pom-[IJ]-artifactCoord=commons-codec:commons-codec:pom:1.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:42-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\commons\commons-parent\42\commons-parent-42.pom-[IJ]-artifactCoord=org.apache.commons:commons-parent:pom:42-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.pom-[IJ]-artifactCoord=org.slf4j:slf4j-api:pom:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\slf4j\slf4j-parent\1.7.5\slf4j-parent-1.7.5.pom-[IJ]-artifactCoord=org.slf4j:slf4j-parent:pom:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:pom:1.4-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-exec/1.4/maven-reporting-exec-1.4.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-exec/1.4/maven-reporting-exec-1.4.pom (12 kB at 45 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-exec\1.4\maven-reporting-exec-1.4.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-exec\1.4\maven-reporting-exec-1.4.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-utils\0.3\maven-shared-utils-0.3.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:pom:0.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-components\18\maven-shared-components-18.pom-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-components:pom:18-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.google.code.findbugs:jsr305:pom:2.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.pom-[IJ]-artifactCoord=com.google.code.findbugs:jsr305:pom:2.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.aether:aether-util:pom:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.pom-[IJ]-artifactCoord=org.eclipse.aether:aether-util:pom:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.aether:aether:pom:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\eclipse\aether\aether\0.9.0.M2\aether-0.9.0.M2.pom-[IJ]-artifactCoord=org.eclipse.aether:aether:pom:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-6-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom (726 B at 1.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-6\plexus-interactivity-api-1.0-alpha-6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-6\plexus-interactivity-api-1.0-alpha-6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity:pom:1.0-alpha-6-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom (1.1 kB at 2.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity\1.0-alpha-6\plexus-interactivity-1.0-alpha-6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity\1.0-alpha-6\plexus-interactivity-1.0-alpha-6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity:pom:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.9-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (2.4 kB at 8.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.9\plexus-components-1.1.9.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.9\plexus-components-1.1.9.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.10\plexus-1.0.10.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.10-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom (1.2 kB at 3.0 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.4\plexus-utils-1.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.4\plexus-utils-1.4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.9\plexus-1.0.9.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.9-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jdom:jdom2:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\jdom\jdom2\2.0.6\jdom2-2.0.6.pom-[IJ]-artifactCoord=org.jdom:jdom2:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream:pom:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\thoughtworks\xstream\xstream\1.4.11.1\xstream-1.4.11.1.pom-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream:pom:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream-parent:pom:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\thoughtworks\xstream\xstream-parent\1.4.11.1\xstream-parent-1.4.11.1.pom-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream-parent:pom:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=xmlpull:xmlpull:pom:1.1.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.pom-[IJ]-artifactCoord=xmlpull:xmlpull:pom:1.1.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=xpp3:xpp3_min:pom:1.1.4c-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.pom-[IJ]-artifactCoord=xpp3:xpp3_min:pom:1.1.4c-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.pom-[IJ]-artifactCoord=org.apache.commons:commons-lang3:pom:3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-help-plugin\3.2.0\maven-help-plugin-3.2.0.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-help-plugin:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\3.0\maven-core-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings-builder:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings-builder:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model-builder:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-model-builder:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-aether-provider:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-aether-provider:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-impl:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar-[IJ]-artifactCoord=org.sonatype.aether:aether-impl:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-spi:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar-[IJ]-artifactCoord=org.sonatype.aether:aether-spi:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-api:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar-[IJ]-artifactCoord=org.sonatype.aether:aether-api:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.aether:aether-util:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar-[IJ]-artifactCoord=org.sonatype.aether:aether-util:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-bean:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar-[IJ]-artifactCoord=org.sonatype.sisu:sisu-inject-bean:jar:1.4.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar-[IJ]-artifactCoord=org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interpolation:jar:1.14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interpolation:jar:1.14-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-classworlds:jar:2.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-classworlds:jar:2.2.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-component-annotations:jar:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-component-annotations:jar:1.7.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar-[IJ]-artifactCoord=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.sonatype.plexus:plexus-cipher:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar-[IJ]-artifactCoord=org.sonatype.plexus:plexus-cipher:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-velocity:jar:1.1.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-velocity\1.1.8\plexus-velocity-1.1.8.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-velocity:jar:1.1.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:jar:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.1\junit-3.8.1.jar-[IJ]-artifactCoord=junit:junit:jar:3.8.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-collections:commons-collections:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.velocity:velocity:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\velocity\velocity\1.7\velocity-1.7.jar-[IJ]-artifactCoord=org.apache.velocity:velocity:jar:1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-lang:commons-lang:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-lang\commons-lang\2.4\commons-lang-2.4.jar-[IJ]-artifactCoord=commons-lang:commons-lang:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=net.sf.jtidy:jtidy:jar:r938-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\net\sf\jtidy\jtidy\r938\jtidy-r938.jar-[IJ]-artifactCoord=net.sf.jtidy:jtidy:jar:r938-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:jar:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar-[IJ]-artifactCoord=org.apache.maven.shared:maven-shared-utils:jar:3.2.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-io:commons-io:jar:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-io\commons-io\2.5\commons-io-2.5.jar-[IJ]-artifactCoord=commons-io:commons-io:jar:2.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar-[IJ]-artifactCoord=org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-codec:commons-codec:jar:1.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar-[IJ]-artifactCoord=commons-codec:commons-codec:jar:1.11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar-[IJ]-artifactCoord=org.slf4j:slf4j-api:jar:1.7.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:3.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.doxia:doxia-sink-api:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar-[IJ]-artifactCoord=org.apache.maven.doxia:doxia-sink-api:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.eclipse.aether:aether-util:jar:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar-[IJ]-artifactCoord=org.eclipse.aether:aether-util:jar:0.9.0.M2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.jdom:jdom2:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\jdom\jdom2\2.0.6\jdom2-2.0.6.jar-[IJ]-artifactCoord=org.jdom:jdom2:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream:jar:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\thoughtworks\xstream\xstream\1.4.11.1\xstream-1.4.11.1.jar-[IJ]-artifactCoord=com.thoughtworks.xstream:xstream:jar:1.4.11.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=xmlpull:xmlpull:jar:1.1.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar-[IJ]-artifactCoord=xmlpull:xmlpull:jar:1.1.3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=xpp3:xpp3_min:jar:1.1.4c-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar-[IJ]-artifactCoord=xpp3:xpp3_min:jar:1.1.4c-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar-[IJ]-artifactCoord=org.apache.commons:commons-lang3:jar:3.7-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=commons-collections:commons-collections:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.jar (24 kB at 60 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-exec/1.4/maven-reporting-exec-1.4.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.5.2/maven-plugin-tools-generators-3.5.2.jar (48 kB at 105 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/3.6.1/maven-model-3.6.1.jar (186 kB at 291 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar (128 kB at 196 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-exec/1.4/maven-reporting-exec-1.4.jar (30 kB at 45 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/commons-collections/commons-collections/3.1/commons-collections-3.1.jar (559 kB at 839 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar (12 kB at 15 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar (263 kB at 248 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:3.6.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-generators\3.5.2\maven-plugin-tools-generators-3.5.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-generators\3.5.2\maven-plugin-tools-generators-3.5.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-api\3.5.2\maven-plugin-tools-api-3.5.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools-api\3.5.2\maven-plugin-tools-api-3.5.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\commons-collections\commons-collections\3.1\commons-collections-3.1.jar-[IJ]-artifactCoord=commons-collections:commons-collections:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-collections\commons-collections\3.1\commons-collections-3.1.jar-[IJ]-artifactCoord=commons-collections:commons-collections:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.jar-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.jar-[IJ]-artifactCoord=org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-exec\1.4\maven-reporting-exec-1.4.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-exec\1.4\maven-reporting-exec-1.4.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-exec:jar:1.4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-6\plexus-interactivity-api-1.0-alpha-6.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-6\plexus-interactivity-api-1.0-alpha-6.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\23\maven-plugins-23.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\22\maven-parent-22.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\11\apache-11.pom-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\23\maven-plugins-23.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\22\maven-parent-22.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\11\apache-11.pom-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven\2.0.6\maven-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\5\maven-parent-5.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\3\apache-3.pom-[IJ]-artifactCoord=org.apache:apache:pom:3-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0.6\maven-settings-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.4.1\plexus-utils-1.4.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.4.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0.6\maven-repository-metadata-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0.6\maven-artifact-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-beta-2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom (680 B at 2.3 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon:pom:1.0-beta-2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom (5.9 kB at 21 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon\1.0-beta-2\wagon-1.0-beta-2.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon\1.0-beta-2\wagon-1.0-beta-2.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon:pom:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:4-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-parent/4/maven-parent-4.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-parent/4/maven-parent-4.pom (10.0 kB at 32 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\4\maven-parent-4.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\4\maven-parent-4.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-annotations\3.1\maven-plugin-annotations-3.1.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-tools\3.1\maven-plugin-tools-3.1.pom-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-tools:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:1.2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing-harness/1.2/maven-plugin-testing-harness-1.2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing-harness/1.2/maven-plugin-testing-harness-1.2.pom (3.7 kB at 13 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing:pom:1.2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing/1.2/maven-plugin-testing-1.2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing/1.2/maven-plugin-testing-1.2.pom (7.6 kB at 27 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing\1.2\maven-plugin-testing-1.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing\1.2\maven-plugin-testing-1.2.pom-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\8\maven-parent-8.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-project/2.0/maven-project-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-project/2.0/maven-project-2.0.pom (1.6 kB at 5.9 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0\maven-project-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0\maven-project-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-project:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven\2.0\maven-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-profile/2.0/maven-profile-2.0.pom (1.4 kB at 5.0 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0\maven-profile-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0\maven-profile-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-profile:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/2.0/maven-model-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-model/2.0/maven-model-2.0.pom (2.4 kB at 8.6 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0\maven-model-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0\maven-model-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-model:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-8\plexus-container-default-1.0-alpha-8.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:pom:1.0-alpha-8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.pom (1.3 kB at 1.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0\maven-artifact-manager-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0\maven-artifact-manager-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.pom (1.2 kB at 4.2 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0\maven-repository-metadata-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0\maven-repository-metadata-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 2.5 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0\maven-artifact-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0\maven-artifact-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-artifact:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-alpha-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.pom (4.2 kB at 10 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-5\wagon-provider-api-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-5\wagon-provider-api-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-core/2.0/maven-core-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-core/2.0/maven-core-2.0.pom (5.6 kB at 19 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-core:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-settings/2.0/maven-settings-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-settings/2.0/maven-settings-2.0.pom (1.4 kB at 5.2 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0\maven-settings-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0\maven-settings-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-settings:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:pom:1.0-alpha-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.pom (5.0 kB at 14 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.pom (1.5 kB at 3.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:pom:1.0-alpha-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.pom (5.6 kB at 18 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.pom (1.1 kB at 3.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting/2.0/maven-reporting-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting/2.0/maven-reporting-2.0.pom (504 B at 1.9 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting\2.0\maven-reporting-2.0.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting\2.0\maven-reporting-2.0.pom-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:pom:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:pom:1.0-alpha-4-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.pom (1.1 kB at 3.7 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.pom-[IJ]-artifactCoord=doxia:doxia-sink-api:pom:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.pom-[IJ]-artifactCoord=doxia:doxia-sink-api:pom:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.pom (812 B at 3.0 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.pom (1.3 kB at 4.1 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0\maven-plugin-registry-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0\maven-plugin-registry-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-cli:commons-cli:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-cli\commons-cli\1.0\commons-cli-1.0.pom-[IJ]-artifactCoord=commons-cli:commons-cli:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.0\maven-plugin-api-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.pom (1.5 kB at 4.4 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivity-api-1.0-alpha-4.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:pom:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:pom:2.0-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.pom (400 B at 1.1 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-monitor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.pom-[IJ]-artifactCoord=org.apache.maven:maven-monitor:pom:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:pom:1.0-alpha-5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.pom (6.0 kB at 8.6 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.pom-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:pom:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:pom:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:pom:0.1.23-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/com/jcraft/jsch/0.1.23/jsch-0.1.23.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/com/jcraft/jsch/0.1.23/jsch-0.1.23.pom (485 B at 1.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.pom-[IJ]-artifactCoord=com.jcraft:jsch:pom:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.pom-[IJ]-artifactCoord=com.jcraft:jsch:pom:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.5.1\plexus-utils-1.5.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.5.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:pom:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:pom:1.0-alpha-7-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.pom (1.0 kB at 3.4 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:pom:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:pom:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.6-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.6-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-components/1.1.6/plexus-components-1.1.6.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-components/1.1.6/plexus-components-1.1.6.pom (1.9 kB at 6.4 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.6\plexus-components-1.1.6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.6\plexus-components-1.1.6.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.8\plexus-1.0.8.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.8-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.2-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom (767 B at 2.8 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.2\plexus-utils-1.2.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\1.2\plexus-utils-1.2.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.5-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom (5.9 kB at 19 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.5\plexus-1.0.5.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\1.0.5\plexus-1.0.5.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:1.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:pom:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.2\junit-3.8.2.pom-[IJ]-artifactCoord=junit:junit:pom:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.0.5\plexus-utils-3.0.5.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:pom:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus\3.1\plexus-3.1.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus:pom:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:pom:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-components\1.1.7\plexus-components-1.1.7.pom-[IJ]-artifactCoord=org.codehaus.plexus:plexus-components:pom:1.1.7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0.6\maven-settings-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0.6\maven-repository-metadata-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0.6\maven-artifact-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-annotations\3.1\maven-plugin-annotations-3.1.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-cli\commons-cli\1.0\commons-cli-1.0.jar-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivity-api-1.0-alpha-4.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.2\junit-3.8.2.jar-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.0.5\plexus-utils-3.0.5.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing-harness/1.2/maven-plugin-testing-harness-1.2.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar (5.9 kB at 18 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/plugin-testing/maven-plugin-testing-harness/1.2/maven-plugin-testing-harness-1.2.jar (34 kB at 81 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar (18 kB at 42 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar (7.7 kB at 12 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar (46 kB at 69 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-core/2.0/maven-core-2.0.jar (136 kB at 198 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.jar (4.3 kB at 6.2 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.jar (6.6 kB at 9.5 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar (7.6 kB at 7.5 kB/s)
+[INFO] Downloading from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar (34 kB at 32 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar (10 kB at 9.6 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar (33 kB at 31 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar (116 kB at 104 kB/s)
+[INFO] Downloaded from artifact.repository: https://repository.rnd.amadeus.net/public/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar (142 kB at 99 kB/s)
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.jar-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.jar-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.jar-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.jar-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_DOWNLOADED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\23\maven-plugins-23.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\22\maven-parent-22.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\11\apache-11.pom-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0.6\maven-settings-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0.6\maven-repository-metadata-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0.6\maven-artifact-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-annotations\3.1\maven-plugin-annotations-3.1.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.jar-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-cli\commons-cli\1.0\commons-cli-1.0.jar-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivity-api-1.0-alpha-4.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.jar-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.2\junit-3.8.2.jar-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.0.5\plexus-utils-3.0.5.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.jar-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:jar:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-install-plugin\2.4\maven-install-plugin-2.4.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-install-plugin:pom:2.4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugins\maven-plugins\23\maven-plugins-23.pom-[IJ]-artifactCoord=org.apache.maven.plugins:maven-plugins:pom:23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-parent\22\maven-parent-22.pom-[IJ]-artifactCoord=org.apache.maven:maven-parent:pom:22-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\apache\11\apache-11.pom-[IJ]-artifactCoord=org.apache:apache:pom:11-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-api:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-project:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-settings\2.0.6\maven-settings-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-settings:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-profile:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-registry:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar-[IJ]-artifactCoord=classworlds:classworlds:jar:1.1-alpha-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-model:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact-manager:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-repository-metadata\2.0.6\maven-repository-metadata-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-repository-metadata:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-artifact\2.0.6\maven-artifact-2.0.6.jar-[IJ]-artifactCoord=org.apache.maven:maven-artifact:jar:2.0.6-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-tools\maven-plugin-annotations\3.1\maven-plugin-annotations-3.1.jar-[IJ]-artifactCoord=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\plugin-testing\maven-plugin-testing-harness\1.2\maven-plugin-testing-harness-1.2.jar-[IJ]-artifactCoord=org.apache.maven.plugin-testing:maven-plugin-testing-harness:jar:1.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-core\2.0\maven-core-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-core:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-file\1.0-alpha-5\wagon-file-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-parameter-documenter\2.0\maven-plugin-parameter-documenter-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-http-lightweight\1.0-alpha-5\wagon-http-lightweight-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\reporting\maven-reporting-api\2.0\maven-reporting-api-2.0.jar-[IJ]-artifactCoord=org.apache.maven.reporting:maven-reporting-api:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\doxia\doxia-sink-api\1.0-alpha-4\doxia-sink-api-1.0-alpha-4.jar-[IJ]-artifactCoord=doxia:doxia-sink-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-error-diagnostics\2.0\maven-error-diagnostics-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-error-diagnostics:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\commons-cli\commons-cli\1.0\commons-cli-1.0.jar-[IJ]-artifactCoord=commons-cli:commons-cli:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-plugin-descriptor\2.0\maven-plugin-descriptor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-plugin-descriptor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivity-api-1.0-alpha-4.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\maven-monitor\2.0\maven-monitor-2.0.jar-[IJ]-artifactCoord=org.apache.maven:maven-monitor:jar:2.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\apache\maven\wagon\wagon-ssh\1.0-alpha-5\wagon-ssh-1.0-alpha-5.jar-[IJ]-artifactCoord=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\com\jcraft\jsch\0.1.23\jsch-0.1.23.jar-[IJ]-artifactCoord=com.jcraft:jsch:jar:0.1.23-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-archiver\1.0-alpha-7\plexus-archiver-1.0-alpha-7.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\junit\junit\3.8.2\junit-3.8.2.jar-[IJ]-artifactCoord=junit:junit:jar:3.8.2-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-utils\3.0.5\plexus-utils-3.0.5.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-utils:jar:3.0.5-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVING-[IJ]-path=-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[IJ]-1-ARTIFACT_RESOLVED-[IJ]-path=C:\m2repo\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.jar-[IJ]-artifactCoord=org.codehaus.plexus:plexus-digest:jar:1.0-[IJ]-error=
+[INFO] org.apache.maven.plugins:maven-install-plugin:2.4
+
+Name: Maven Install Plugin
+Description: Copies the project artifacts to the user's local repository.
+Group Id: org.apache.maven.plugins
+Artifact Id: maven-install-plugin
+Version: 2.4
+Goal Prefix: install
+
+This plugin has 3 goals:
+
+install:help
+  Description: Display help information on maven-install-plugin.
+    Call mvn install:help -Ddetail=true -Dgoal=<goal-name> to display parameter
+    details.
+
+install:install
+  Description: Installs the project's main artifact, and any other artifacts
+    attached by other plugins in the lifecycle, to the local repository.
+
+install:install-file
+  Description: Installs a file in the local repository.
+
+For more information, run 'mvn help:describe [...] -Ddetail'
+
+[IJ]-1-MojoSucceeded-[IJ]-source=CLI-[IJ]-goal=describe-[IJ]-id=xavierdpt:xtransformer-maven-plugin:maven-plugin:1.0-SNAPSHOT-[IJ]-error=
+[IJ]-1-ProjectSucceeded-[IJ]-id=xavierdpt:xtransformer-maven-plugin:maven-plugin:1.0-SNAPSHOT
+[IJ]-1-SessionEnded-[IJ]-id=unknown
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.995 s
+[INFO] Finished at: 2021-06-29T17:12:52+02:00
+[INFO] ------------------------------------------------------------------------
+[IJ]-1-Unknown-[IJ]-event=org.apache.maven.execution.DefaultMavenExecutionResult@2dd8239
