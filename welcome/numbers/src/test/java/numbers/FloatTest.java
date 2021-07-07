@@ -1,134 +1,172 @@
 package numbers;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class LongTest {
+class FloatTest {
   @Test
   void test() {
 
-    long x1 = 0;
-    int r1 = Long.bitCount(x1);
+    assertTrue(Float.isFinite(0F));
+    assertFalse(Float.isFinite(Float.NaN));
+    assertFalse(Float.isFinite(Float.POSITIVE_INFINITY));
+    assertFalse(Float.isFinite(Float.NEGATIVE_INFINITY));
 
-    long x2 = 0;
-    long x3 = 0;
-    int r2 = Long.compare(x2, x3);
+    assertFalse(Float.isInfinite(0F));
+    assertFalse(Float.isInfinite(Float.NaN));
+    assertTrue(Float.isInfinite(Float.POSITIVE_INFINITY));
+    assertTrue(Float.isInfinite(Float.NEGATIVE_INFINITY));
 
-    long x4 = 0;
-    long x5 = 0;
-    int r3 = Long.compareUnsigned(x4, x5);
+    assertFalse(Float.isNaN(0F));
+    assertTrue(Float.isNaN(Float.NaN));
+    assertFalse(Float.isNaN(Float.POSITIVE_INFINITY));
+    assertFalse(Float.isNaN(Float.NEGATIVE_INFINITY));
 
-    String x6 = null;
-    Long r4 = Long.decode(x6);
+    assertEquals(0F, Float.max(0F, -0F));
+    assertEquals(1F,
+        Float.max(0F, 1F));
+    assertEquals(Float.POSITIVE_INFINITY,
+        Float.max(0F, Float.POSITIVE_INFINITY));
+    assertEquals(0F,
+        Float.max(0F, Float.NEGATIVE_INFINITY));
+    assertEquals(Float.POSITIVE_INFINITY,
+        Float.max(Float.POSITIVE_INFINITY, Float.NEGATIVE_INFINITY));
+    assertEquals(Float.NaN,
+        Float.max(0F, Float.NaN));
+    assertEquals(Float.NaN,
+        Float.max(Float.NaN, Float.POSITIVE_INFINITY));
+    assertEquals(Float.NaN,
+        Float.max(Float.NaN, Float.NEGATIVE_INFINITY));
 
-    long x7 = 0;
-    long x8 = 0;
-    long r5 = Long.divideUnsigned(x7, x8);
+    assertEquals(0F, Float.min(0F, 1F));
+    assertEquals(-0F, Float.min(0F, -0F));
 
-    String x9 = null;
-    Long r6 = Long.getLong(x9);
+    assertEquals(3F, Float.sum(1F, 2F));
 
-    String x10 = null;
-    long x11 = 0;
-    Long r7 = Long.getLong(x10, x11);
+    boolean incrementError = false;
+    for (int i = 0; i < Integer.MAX_VALUE / 2 - 1; ++i) {
+      float fi = Integer.valueOf(i).floatValue();
+      float fi1 = Integer.valueOf(i + 1).floatValue();
+      if (fi1 != Float.sum(fi, 1F)) {
+        incrementError = true;
+        System.out.println(i);
+        System.out.println(Integer.MAX_VALUE);
+        break;
+      }
+    }
+    assertTrue(incrementError);
 
-    String x12 = null;
-    Long x13 = null;
-    Long r8 = Long.getLong(x12, x13);
+    assertEquals(0x7f800000, Float.floatToRawIntBits(Float.POSITIVE_INFINITY));
+    assertEquals(0xff800000, Float.floatToRawIntBits(Float.NEGATIVE_INFINITY));
+    assertEquals(0x00000000, Float.floatToRawIntBits(0F));
+    assertEquals(0x80000000, Float.floatToRawIntBits(-0F));
+    assertEquals(0x7fc00000, Float.floatToRawIntBits(Float.NaN));
+    assertEquals(0x7f7fffff, Float.floatToRawIntBits(Float.MAX_VALUE));
+    assertEquals(0x00000001, Float.floatToRawIntBits(Float.MIN_VALUE));
+    assertEquals(0x00800000, Float.floatToRawIntBits(Float.MIN_NORMAL));
 
-    long x14 = 0;
-    int r9 = Long.hashCode(x14);
+    assertEquals("0x0.0p0", Float.toHexString(0F));
+    assertEquals("-0x0.0p0", Float.toHexString(-0F));
+    assertEquals("NaN", Float.toHexString(Float.NaN));
+    assertEquals("Infinity", Float.toHexString(Float.POSITIVE_INFINITY));
+    assertEquals("-Infinity", Float.toHexString(Float.NEGATIVE_INFINITY));
+    assertEquals("0x1.fffffep127", Float.toHexString(Float.MAX_VALUE));
+    assertEquals("0x0.000002p-126", Float.toHexString(Float.MIN_VALUE));
+    assertEquals("0x1.0p-126", Float.toHexString(Float.MIN_NORMAL));
 
-    long x15 = 0;
-    long r10 = Long.highestOneBit(x15);
+    assertEquals("0.0", Float.toString(0F));
+    assertEquals("-0.0", Float.toString(-0F));
+    assertEquals("NaN", Float.toString(Float.NaN));
+    assertEquals("Infinity", Float.toString(Float.POSITIVE_INFINITY));
+    assertEquals("-Infinity", Float.toString(Float.NEGATIVE_INFINITY));
+    assertEquals("3.4028235E38", Float.toString(Float.MAX_VALUE));
+    assertEquals("1.4E-45", Float.toString(Float.MIN_VALUE));
+    assertEquals("1.17549435E-38", Float.toString(Float.MIN_NORMAL));
 
-    long x16 = 0;
-    long r11 = Long.lowestOneBit(x16);
+    // TODO: produce non canonical NaN values
+    assertEquals(0x00000000, Float.floatToIntBits(0F));
+    assertEquals(0x80000000, Float.floatToIntBits(-0F));
+    assertEquals(0x7fc00000, Float.floatToIntBits(Float.NaN));
+    assertEquals(0x7f800000, Float.floatToIntBits(Float.POSITIVE_INFINITY));
+    assertEquals(0xff800000, Float.floatToIntBits(Float.NEGATIVE_INFINITY));
+    assertEquals(0x7f7fffff, Float.floatToIntBits(Float.MAX_VALUE));
+    assertEquals(0x00000001, Float.floatToIntBits(Float.MIN_VALUE));
+    assertEquals(0x00800000, Float.floatToIntBits(Float.MIN_NORMAL));
 
-    long x17 = 0;
-    long x18 = 0;
-    long r12 = Long.max(x17, x18);
+    assertEquals(0F, Float.intBitsToFloat(0x0));
 
-    long x19 = 0;
-    long x20 = 0;
-    long r13 = Long.min(x19, x20);
+    assertNotEquals(0F, -0F);
+    assertTrue(Float.compare(Float.NEGATIVE_INFINITY, -0F) < 0);
+    assertTrue(Float.compare(-0F, 0F) < 0);
+    assertTrue(Float.compare(0F, Float.POSITIVE_INFINITY) < 0);
+    assertTrue(Float.compare(Float.POSITIVE_INFINITY, Float.NaN) < 0);
 
-    long x21 = 0;
-    int r14 = Long.numberOfLeadingZeros(x21);
+    assertEquals(Float.valueOf(0F).hashCode(), Float.hashCode(0F));
 
-    long x22 = 0;
-    int r15 = Long.numberOfTrailingZeros(x22);
+    float r11 = Float.parseFloat("0");
+    assertEquals(0F, r11);
 
-    String x23 = null;
-    long r16 = Long.parseLong(x23);
+    float r11x = Float.parseFloat("0F");
+    assertEquals(0F, r11x);
 
-    String x24 = null;
-    int x25 = 0;
-    long r17 = Long.parseLong(x24, x25);
+    if (System.currentTimeMillis() < 0) {
+      Object[] objects = new Object[] {
+          Float.MAX_EXPONENT,
+          Float.MIN_EXPONENT,
+      };
 
-    String x26 = null;
-    long r18 = Long.parseUnsignedLong(x26);
+      float x19 = 0;
+      Float r15 = Float.valueOf(x19);
+      assertEquals(0, r15);
 
-    String x27 = null;
-    int x28 = 0;
-    long r19 = Long.parseUnsignedLong(x27, x28);
+      String x20 = null;
+      Float r16 = Float.valueOf(x20);
+      assertEquals(0, r16);
 
-    long x29 = 0;
-    long r20 = Long.reverse(x29);
+      Float f = 0F;
+      byte r17 = f.byteValue();
+      assertEquals(0, r17);
 
-    long x30 = 0;
-    long r21 = Long.reverseBytes(x30);
+      Float x21 = null;
+      int r18 = f.compareTo(x21);
+      assertEquals(0, r18);
 
-    long x31 = 0;
-    int x32 = 0;
-    long r22 = Long.rotateLeft(x31, x32);
+      double r19 = f.doubleValue();
+      assertEquals(0, r19);
 
-    long x33 = 0;
-    int x34 = 0;
-    long r23 = Long.rotateRight(x33, x34);
+      Object x22 = null;
+      boolean r20 = f.equals(x22);
+      assertFalse(r20);
 
-    long x35 = 0;
-    int r24 = Long.signum(x35);
+      float r21 = f.floatValue();
+      assertEquals(0, r21);
 
-    long x36 = 0;
-    long x37 = 0;
-    long r25 = Long.sum(x36, x37);
+      int r22 = f.hashCode();
+      assertEquals(0, r22);
 
-    long x38 = 0;
-    String r26 = Long.toBinaryString(x38);
+      int r23 = f.intValue();
+      assertEquals(0, r23);
 
-    long x39 = 0;
-    String r27 = Long.toHexString(x39);
+      boolean r24 = f.isInfinite();
+      assertFalse(r24);
 
-    long x40 = 0;
-    String r28 = Long.toOctalString(x40);
+      boolean r25 = f.isNaN();
+      assertFalse(r25);
 
-    long x41 = 0;
-    String r29 = Long.toString(x41);
+      long r26 = f.longValue();
+      assertEquals(0, r26);
 
-    long x42 = 0;
-    int x43 = 0;
-    String r30 = Long.toString(x42, x43);
+      short r27 = f.shortValue();
+      assertEquals(0, r27);
 
-    long x44 = 0;
-    String r31 = Long.toUnsignedString(x44);
+      String r28 = f.toString();
+      assertEquals("", r28);
 
-    long x45 = 0;
-    int x46 = 0;
-    String r32 = Long.toUnsignedString(x45, x46);
-
-    long x47 = 0;
-    Long r33 = Long.valueOf(x47);
-
-    String x48 = null;
-    Long r34 = Long.valueOf(x48);
-
-    String x49 = null;
-    int x50 = 0;
-    Long r35 = Long.valueOf(x49, x50);
-
-    Long l = 0L;
-
-    l.
-
+    }
   }
 }

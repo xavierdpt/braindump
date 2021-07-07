@@ -171,14 +171,147 @@ To convert a `Byte` to a `String`, there is only one possibility:
 
 - `Byte.toString()`
 
-But to convert a  `String` to a `Byte`, there are multiple possibilities:
+But to convert a  `String` to a `Byte`, there are multiple possibilities, but there are really only 2.
 
-- XXX
-- XXX
-- XXX
-- XXX
+- `decode()` can take a formatted string, such as "0xF", and detect the base to use (decimal, hexadecimal, or octal),
+  from the string
+- The other possibilities relies on parseByte(), which returns a `byte`, if the base is not specified, it defaults to
+  base 10:
+    - `Byte(String)` constructor
+    - `valueOf(String)` static method
+    - `valueOf(String,int)` static method
 
-See [ByteStringTest](numbers/src/test/java/numbers/ByteStringTest.java).
+## `byte` to `String` and back
+
+To convert a `byte` to string, there is only the `Byte.toString(byte)` static method.
+
+To convert a String to `byte`, there are `Byte.parseByte(String)` and `Byte.parseByte(String,int)`.
+
+See [PrimitiveByteStringTest](numbers/src/test/java/numbers/PrimitiveByteStringTest.java).
+
+# Other `Byte` methods
+
+There are to methods to compare `Byte`: the `compare` method from the `Comparable` interface, and another
+static `compare` method that can compare two `byte`.
+
+There are also the `hashCode()` method inherited from `Object`, and another `hashCode(byte)` static method for `byte`.
+
+And there are two methods `toUnsignedInt()` and `toUnsignedLong()` which interpret the 8 bits of a `byte` as the 8 least
+significant bits of an `int` or `long`.
+
+See [OtherByteMethodsTest](numbers/src/test/java/numbers/OtherByteMethodsTest.java).
+
+# Short
+
+`Short` has the same methods as `Byte`, with the addition of `reverseBytes`.
+
+See [ShortTest](numbers/src/test/java/numbers/ShortTest.java).
+
+# Integer
+
+## `int` to `Integer` and back
+
+To convert an `int` to an `Integer`, the following possibilities are available:
+
+- implicit boxing
+- constructor
+- static method `valueOf()`
+
+Among those, only the constructor method does not uses the Integer cache for common values.
+
+To convert an `Integer` back to an `int`, the following possibilities are available:
+
+- implicit boxing
+- `intValue()` method defined by the `Number` interface
+
+See [IntToIntegerTest](numbers/src/test/java/numbers/IntToIntegerTest.java).
+
+## `Integer` to `String` and back
+
+To convert an `Integer` to a `String`, there is only the `toString()` method.
+
+But there are multiple ways to convert a `String` to an `Integer`.
+
+As with `Byte`, the constructor and the `valueOf` static method produce an Integer from a String using `parseInt` behind
+the scene, and the `decode` static method understand hexadecimal and octal notations.
+
+But there is also a `getInteger()` method that tries to read a system property as an Integer, with an optional default
+value which can be an `int` or an `Integer`. If the default value is not provided, it is equivalent to `null`.
+
+See [IntegerToStringTest](numbers/src/test/java/numbers/IntegerToStringTest.java).
+
+## `int` to `String` and back
+
+For converting an `int` to a `String`, there is the `toString(int)` method, with an optional radix.
+
+And three specific methods `toBinaryString()`, `toOctalString()` and `toHexString()` for converting to a binary string,
+an octal string or an hexadecimal string respectively.
+
+And there is the `toUnsignedString()` method, with an optional radix, that parses the bits as an unsigned integer. In
+particular, when specifying a radix of 2 or 16, this gives the actual bits of the integers.
+
+For converting a `String` to an `int`, there is the `parseInt` static method, with an optional radix, and
+the `parseUnsignedInt` static method which takes as input the actual bits of the integer. In particular, when
+specifying "FFFFFFFF", the actual signed integer value is -1."
+
+See [IntToStringTest](numbers/src/test/java/numbers/IntToStringTest.java).
+
+## Arithmetic with `int`
+
+The `Integer` class defines a number of static methods for arithmetic with `int`:
+
+- `sum`
+- `min` and `max`
+- `signum` returns -1, 0 or 1 according to the sign of its argument
+- `compare` returns a negative, 0, or positive value according to its arguments
+
+Three methods are defined for dealing with unsigned integers:
+
+- `remainderUnsigned`
+- `divideUnsigned`
+- `compareUnsigned`
+
+And the `compareTo` function works with `Integer` and not `int`, because its the implementation of the `Comparable`
+interface.
+
+See [IntArithmeticTest](numbers/src/test/java/numbers/IntArithmeticTest.java).
+
+## Bitwise operations
+
+`Integer` defines a number of static methods for performing bit-level operations with `int`.
+
+- `rotateRight` and `rotateLeft` rotate bits to the right and to the left
+- `reverse` reverses the bits and `reverseBytes` reverses the bytes
+- `bitCount` counts the number of 1s, `numberOfTrailingZeros` and `numberOfLeadingZeros` counts the number of trailing
+  and leading 0s
+- `lowestOneBit` and `highestOneBit` find the lowest and highest 1 bit respectively.
+
+See [IntBitsTest](numbers/src/test/java/numbers/IntBitsTest.java).
+
+## Misc
+
+Finally, `Integer` implements the `Number` interface with methods that are equivalent to casting, and
+the `hashCode(int)` static method which is equivalent to `Integer.hashCode()`.
+
+See [IntegerMiscTest](numbers/src/test/java/numbers/IntegerMiscTest.java).
+
+# `Long`
+
+`Long` defines the same methods as `Integer`, with some types suitably changed form `int` to `long` and from `Integer`
+to `Long`, with some `int` arguments remaining wherever it makes sense.
+
+# `Float`
+
+Floating point type, such as `Float` and `Double`, rely on the IEE-1754 standard, which defines a specific encoding of
+floating point values on 32 bit and 64 bit.
+
+The static method `Float.floatToRawIntBits` returns a 32-bit `int` which contains exactly the same bits as the
+corresponding 32-bit
+`float`, which is useful for inspective `float` values.
+
+
+
+See [FloatBitsTest](numbers/src/test/java/numbers/FloatBitsTest.java).
 
 -----------------
 

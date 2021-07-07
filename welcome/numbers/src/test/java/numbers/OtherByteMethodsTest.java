@@ -1,31 +1,33 @@
 package numbers;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-class NextTest {
+class OtherByteMethodsTest {
   @Test
   void test() {
 
-
-
     byte b1 = 0;
-    Byte b2 = b1;
+    byte b2 = 1;
 
-    int compare = Byte.compare(b1, b1);
-    int i2 = b2.compareTo(b2);
+    Byte b3 = b1;
+    Byte b4 = b2;
 
-    int i = Byte.hashCode(b1);
-    int i3 = b2.hashCode();
+    assertTrue(Byte.compare(b1, b2) < 0);
+    assertTrue(Byte.compare(b2, b1) > 0);
 
-    int i1 = Byte.toUnsignedInt(b1);
-    long l = Byte.toUnsignedLong(b1);
+    assertTrue(b3.compareTo(b4) < 0);
+    assertTrue(b4.compareTo(b3) > 0);
 
+    assertEquals(Byte.hashCode(b1), b3.hashCode());
 
+    assertEquals(0x80, Byte.toUnsignedInt(Byte.MIN_VALUE));
+    assertEquals(0x80L, Byte.toUnsignedLong(Byte.MIN_VALUE));
 
+    assertEquals(-0x80, Byte.MIN_VALUE);
+    assertEquals(-0x80L, Byte.MIN_VALUE);
 
-
-    assertTrue(true);
   }
 }
