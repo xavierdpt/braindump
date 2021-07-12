@@ -7,34 +7,40 @@
 html {
   font-size: 30px;
 }
+
 .topcontainer {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  align-content: normal;
+  background-color: green;
   height: 100vh;
-  position: relative;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  min-width: 30px;
-  max-width: 300px;
   position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 100px;
+  max-width: 600px;
   border: solid 1px black;
-  overflow: hidden;
+  overflow: auto;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:2.5px;
+  padding-bottom: 2.5px;
 }
 
 .box {
   border: solid 1px black;
   white-space: nowrap;
   overflow: hidden;
-  margin: 5px;
+  margin-top:2.5px;
+  margin-bottom:2.5px;
   text-overflow: ellipsis;
   background-color: orange;
-  max-width: 100%;
+  width: 100%;
 }
 
 .resize-handle {
@@ -45,6 +51,7 @@ html {
   position: absolute;
   right: 0;
   top: 0;
+  flex: none;
 }
 
 .jsonmodel {
@@ -55,5 +62,12 @@ html {
   bottom: 0;
   white-space: pre-wrap;
   overflow: scroll;
+  z-index: 1;
+}
+
+.conditionalclicks {
+  position: absolute;
+  top: 0;
+  right: 0;
   z-index: 1;
 }

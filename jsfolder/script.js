@@ -4,6 +4,7 @@ let resizeHandle = null;
 let resizeContext = null;
 let modelSynchronizer = null;
 let outsideMouseHandler = null;
+let conditionalClicks = true;
 
 const logged = {};
 const logOnce = (msg) => {
@@ -24,19 +25,60 @@ const toUnit = function (str) {
 };
 
 const OutsideMouseHandler = function () {
+  this.mousedown = [];
+  this.mousemove = [];
+  this.mouseup = [];
+  this.click = [];
+  document.addEventListener("mousedown", (e) => {
+    this.disableNextClick = false;
+    for (const handler of this.mousedown) {
+      handler(e);
+    }
+  });
   document.addEventListener("mousemove", (e) => {
-    if (this.mousemove.length) {
-      this.mousemove(e);
+    for (const handler of this.mousemove) {
+      handler(e);
     }
   });
   document.addEventListener("mouseup", (e) => {
-    if (this.mouseup.length) {
-      this.mouseup(e);
+    for (const handler of this.mouseup) {
+      if (conditionalClicks) {
+        /*
+        This is an attempt at managing the following situation:
+
+        - Step 1: Click on a cell to enter edit mode
+        -- Then you can  click anywhere to leave the edit mode and commit the change, but do not do that yet
+        - Step 2: Drag the vertical pink resize bar, and make sure the cell is still in edit mode
+        - Step 3: Release the mouse somewhere to the right of the pink resize bar
+
+        What will happen in this case is the following:
+        - 'mouseup' will fire, and the resize mode will stop
+        - but 'click' will fire too, and the cell will be updated
+
+        Desired behaviour is that any click on the screen will leave edit mode,
+        but the box can be resized while the text is being edited
+
+        To do this, the resize mouseup event handler has a disableNextClick property,
+        and when we see that property, the next click is disabled
+
+        mousemove and mouseup events are attached when clicking on the resize handle
+        and detached when resizing is done
+       */
+        this.disableNextClick |= handler.disableNextClick;
+      }
+
+      handler(e);
     }
   });
   document.addEventListener("click", (e) => {
-    if (this.click.length && !this.mouseup.length) {
-      this.click(e);
+    if (this.disableNextClick) {
+      this.disableNextClick = false;
+      return;
+    }
+    if (!this.mouseup.length) {
+      for (const handler of this.click) {
+        handler(e);
+      }
     }
   });
 };
@@ -64,7 +106,7 @@ OutsideMouseHandler.prototype.removeEventListener = function (type, handler) {
       eventHandlers = this[type];
       break;
     default:
-      logOnce(`Not supported outside mouse handler for event type ${type}`);
+      logOnce(`Outside mouse handler not supported for event type ${type}`);
   }
   if (eventHandlers) {
     this[type] = eventHandlers.filter((h) => h !== handler);
@@ -80,15 +122,19 @@ const ResizeContext = function (container) {
     },
     mouseup: (e) => {
       this.resize(e.clientX);
-      document.removeEventListener("mousemove", this.handlers.mousemove);
-      document.removeEventListener("mouseup", this.handlers.mouseup);
+      outsideMouseHandler.removeEventListener(
+        "mousemove",
+        this.handlers.mousemove
+      );
+      outsideMouseHandler.removeEventListener("mouseup", this.handlers.mouseup);
     },
   };
+  this.handlers.mouseup.disableNextClick = true;
   return (e) => {
     this.start = e.clientX;
     this.initWidth = toUnit(window.getComputedStyle(container).width).value;
-    document.addEventListener("mousemove", this.handlers.mousemove);
-    document.addEventListener("mouseup", this.handlers.mouseup);
+    outsideMouseHandler.addEventListener("mousemove", this.handlers.mousemove);
+    outsideMouseHandler.addEventListener("mouseup", this.handlers.mouseup);
   };
 };
 ResizeContext.prototype.resize = function resize(end) {
@@ -115,17 +161,16 @@ const EditingContext = function (box, item) {
   this.editing = false;
   this.handlers = {
     finishEdit: (e) => {
-      if (
-        e.target !== this.input &&
-        e.target !== resizeHandle &&
-        this.editing
-      ) {
+      if (e.target !== this.input && this.editing) {
         this.editing = false;
         const newText = this.input.value;
         this.target.removeChild(this.target.childNodes[0]);
         this.target.appendChild(document.createTextNode(newText));
         this.item.title = newText;
-        document.removeEventListener("click", this.handlers.finishEdit);
+        outsideMouseHandler.removeEventListener(
+          "click",
+          this.handlers.finishEdit
+        );
         modelSynchronizer.update();
       }
     },
@@ -141,7 +186,7 @@ const EditingContext = function (box, item) {
     this.target.appendChild(this.input);
     this.input.focus();
     setTimeout(() => {
-      document.addEventListener("click", this.handlers.finishEdit);
+      outsideMouseHandler.addEventListener("click", this.handlers.finishEdit);
     });
   };
 };
@@ -221,4 +266,10 @@ window.addEventListener("load", () => {
   modelSynchronizer.update();
 
   outsideMouseHandler = new OutsideMouseHandler();
+
+  document
+    .getElementById("conditionalclicks")
+    .addEventListener("change", () => {
+      conditionalClicks = !conditionalClicks;
+    });
 });
